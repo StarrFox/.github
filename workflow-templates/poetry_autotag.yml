@@ -2,7 +2,7 @@ name: Poetry Autotag
 
 on:
   push:
-    branches: ["main"]
+    branches: [ $default-branch ]
 
 jobs:
   build:
